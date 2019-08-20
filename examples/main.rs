@@ -1,3 +1,8 @@
+extern crate libpool;
+use libpool::*;
+
 fn main() {
-    println!("Hello, world!");
+    ThreadPool::new(5).execute(move ||{
+        println!("---------output-------");
+    });
 }

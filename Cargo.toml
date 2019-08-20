@@ -10,6 +10,6 @@ keywords = [ "threadpool" ]
 categories = [ "asynchronous" ]
 license = "MIT/Apache-2.0"
 exclude = [ "/.travis.yml" ]
-description = "A simple threadpool"
+description = "A simple threadpool from The Rust Programming Language"
 
 [dependencies]
